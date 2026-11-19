@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Billets · La revanche · Sortie AECS</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:wght@500;600;800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;background:#eef1f6;font-family:Figtree,system-ui,sans-serif;color:#1f2f5e}
+  .wrap{max-width:520px;margin:0 auto;padding:20px 16px 40px}
+  .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+  .brand{font-weight:800;letter-spacing:4px;font-size:22px}
+  .brand small{display:block;font-size:10px;letter-spacing:3px;font-weight:600}
+  .secure{font-size:13px;font-weight:600;color:#3d4b73;display:flex;align-items:center;gap:6px}
+  .card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 1px 3px rgba(20,32,74,.12)}
+  .cover{background:#1f2f5e;padding:28px 22px;text-align:center;position:relative}
+  .cover h1{font-family:Anton,Impact,sans-serif;font-weight:400;color:#F2B33D;font-size:56px;line-height:1;margin:0 0 8px}
+  .cover p{font-family:Anton,Impact,sans-serif;color:#fff;font-size:26px;margin:0;line-height:1.15}
+  .cover .vs{color:#F2B33D;font-size:20px}
+  .body{padding:20px 22px 24px}
+  .row{display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px solid #e6e9f0}
+  .row:last-of-type{border-bottom:0}
+  .ico{width:40px;height:40px;border-radius:12px;background:#eef1f6;display:flex;align-items:center;justify-content:center;flex:none}
+  .row b{display:block;font-size:16px}
+  .row span{font-size:14px;color:#4a5880}
+  .tix{margin-top:18px;border:2px solid #1f2f5e;border-radius:16px;padding:16px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .tix b{font-size:17px}
+  .tix span{display:block;font-size:13px;color:#4a5880}
+  .price{font-family:Anton,Impact,sans-serif;font-size:34px}
+  .left{margin-top:10px;font-size:13px;font-weight:600;color:#b3261e;text-align:center}
+  .buy{display:block;margin-top:16px;background:#1f2f5e;color:#fff;text-decoration:none;text-align:center;font-weight:800;font-size:18px;padding:18px;border-radius:14px;min-height:44px}
+  .buy:hover{background:#14204a}
+  .pay{margin-top:12px;display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
+  .pay span{font-size:12px;font-weight:700;border:1px solid #c9cfdc;border-radius:6px;padding:4px 8px;color:#3d4b73}
+  .fine{margin-top:16px;font-size:12px;color:#5a6890;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="brand">aecs<small>BILLETTERIE</small></div>
+    <div class="secure">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>
+      Paiement sécurisé
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="cover">
+      <h1>LA REVANCHE</h1>
+      <p>LEWIS LE FOU</p>
+      <p class="vs">VS</p>
+      <p>OLIVIER PRIMEAU</p>
+    </div>
+    <div class="body">
+      <div class="row">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1f2f5e" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+        <div><b>Samedi 21 novembre</b><span>Départ 10h · Retour après la partie</span></div>
+      </div>
+      <div class="row">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1f2f5e" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+        <div><b>Centre Vidéotron, Québec</b><span>Départ de HEC Montréal, édifice Decelles</span></div>
+      </div>
+      <div class="row">
+        <div class="ico"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1f2f5e" stroke-width="2" aria-hidden="true"><rect x="4" y="3" width="16" height="15" rx="3"/><path d="M4 11h16M8 18v3M16 18v3"/><circle cx="8" cy="14.5" r=".8"/><circle cx="16" cy="14.5" r=".8"/></svg></div>
+        <div><b>Autocar de luxe inclus</b><span>Aller-retour Montréal–Québec</span></div>
+      </div>
+
+      <div class="tix">
+        <div><b>Billet général + 1</b><span>Transport inclus · +1 inclus</span></div>
+        <div class="price">20 $</div>
+      </div>
+      <div class="left">🔥 Il ne reste que quelques places</div>
+
+      <a class="buy" href="https://media.giphy.com/media/Vuw9m5wXviFIQ/giphy.gif">Acheter mon billet</a>
+
+      <div class="pay"><span>Apple Pay</span><span>Visa</span><span>Mastercard</span></div>
+      <div class="fine">Organisé par l'AECS HEC Montréal</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
